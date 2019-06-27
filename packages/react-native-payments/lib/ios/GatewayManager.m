@@ -1,8 +1,6 @@
 #import "GatewayManager.h"
 
-#if __has_include(<Stripe/Stripe.h>)
 #import <Stripe/Stripe.h>
-#endif
 
 #if __has_include(<BraintreeApplePay/BraintreeApplePay.h>)
 #import <BraintreeApplePay/BraintreeApplePay.h>
