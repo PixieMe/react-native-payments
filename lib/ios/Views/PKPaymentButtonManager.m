@@ -16,6 +16,8 @@ RCT_EXPORT_MODULE()
 
 RCT_EXPORT_VIEW_PROPERTY(onPress, RCTBubblingEventBlock)
 
+RCT_EXPORT_VIEW_PROPERTY(enabled, BOOL)
+
 RCT_CUSTOM_VIEW_PROPERTY(buttonType, NSString, PKPaymentButtonView)
 {
   if (json) {
